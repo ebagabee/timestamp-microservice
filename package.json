@@ -1,0 +1,15 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch /src/index.js"
+  },
+  "keywords": ["nodejs", "api", "express", "microservice"],
+  "author": "Gabriel Alves (Gabe)",
+  "license": "ISC",
+  "description": "API that accepts a date as a parameter and returns the date in Unix and UTC format",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
