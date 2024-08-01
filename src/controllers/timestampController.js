@@ -1,4 +1,4 @@
-import { parseDate } from '../services/timestampService.js';
+const { parseDate } = require('../services/timestampService');
 
 const getTimestamp = (req, res) => {
   const date = req.params.date;
@@ -11,4 +11,4 @@ const getTimestamp = (req, res) => {
   res.json(result);
 };
 
-export { getTimestamp };
+module.exports = { getTimestamp };

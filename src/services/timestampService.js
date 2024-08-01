@@ -1,4 +1,4 @@
-import { isValidDate, formatToUnixAndUTC } from '../utils/dateUtils.js';
+const { isValidDate, formatToUnixAndUTC } = require('../utils/dateUtils.js');
 
 const parseDate = (date) => {
   if (!date) {
@@ -15,4 +15,4 @@ const parseDate = (date) => {
   return formatToUnixAndUTC(parsedDate);
 };
 
-export { parseDate };
+module.exports = { parseDate };

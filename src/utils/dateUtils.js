@@ -5,4 +5,4 @@ const formatToUnixAndUTC = (date) => ({
   utc: date.toUTCString()
 });
 
-export { isValidDate, formatToUnixAndUTC };
+module.exports = { isValidDate, formatToUnixAndUTC };
