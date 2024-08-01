@@ -1,5 +1,5 @@
 import express from 'express';
-import timestampRoutes from ('./routes/timestampRoutes');
+import timestampRoutes from './routes/timestampRoutes.js';
 
 const app = express();
 

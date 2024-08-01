@@ -1,5 +1,5 @@
 import express from 'express';
-import { getTimestamp } from '../controllers/timestampController';
+import { getTimestamp } from '../controllers/timestampController.js';
 
 const router = express.Router();
 
